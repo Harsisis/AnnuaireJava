@@ -1,7 +1,7 @@
 package fr.mns.jee.tp1Annuaire.model;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.sql.Date;
 
 import fr.mns.jee.tp1Annuaire.enums.Gender;
 
