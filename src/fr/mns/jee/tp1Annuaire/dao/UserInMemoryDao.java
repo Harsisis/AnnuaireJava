@@ -9,7 +9,6 @@ import fr.mns.jee.tp1Annuaire.model.User;
 public class UserInMemoryDao implements Dao<User>{
 	private static List<User> users = new ArrayList<>(Arrays.asList(new User("alexandre.blanc@ifa.fr","alexandre"),new User("jean@gmail.fr","jean")));
 
-	
 	@Override
 	public List<User> findAll() {
 		// TODO Auto-generated method stub
